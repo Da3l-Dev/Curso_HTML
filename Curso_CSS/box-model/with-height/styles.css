@@ -1,0 +1,7 @@
+input{
+    /* Determina el ancho del elemento */
+    width: 100%;
+
+    /* Determina el alto del elemento */
+    height: auto;
+}

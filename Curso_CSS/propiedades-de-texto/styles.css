@@ -1,0 +1,36 @@
+p{
+    /* Color de texto */
+    color: red;
+
+    /* Tipografia  (Nota: las tipografias que solo tengan un nombre no llevan '' y con una, para poner mas tipografias)*/ 
+    font-family: "Plus Jakarta Sans", serif; /* Tipografia por google font */
+
+    /* Tamano */
+    font-size: 12px;
+
+    /* Efecto en negritas */
+    font-weight:bold;/* Los numero del 100 - 900 puede que un creador de tipografias alla definido grosores de las tipografias */
+
+    /* Bold ( font-weight == 700) 
+       Bolder (font-weight > 700)
+    */
+
+    /* Estilos del texto */
+    font-style: italic; /* italic ya tiene fuente normal */
+
+    /* Aliniacion del texto */
+    text-align: start;
+
+    /* Decoracion del texto */
+    text-decoration: none;
+
+    /* Espaciado de la letra o tam de la lienea */
+    line-height: 2.3;
+
+    /* Espacio entre letras */
+    letter-spacing: 2px;
+
+    /* Transformar texto */
+    text-transform: uppercase;
+}
+    

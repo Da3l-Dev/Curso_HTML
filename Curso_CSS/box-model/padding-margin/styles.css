@@ -1,0 +1,10 @@
+.formualario{
+    background-color: red;
+    /* padding: 10px 90px 40px 1px; Todos los lados */
+    /* padding va a la manesillas del reloj arriba, derecha, abajo ,  izquierda */
+    padding: 10px 10px; /* la primera parte es arriba y abajo y el segundo especifica los paddings de los dos lados  */
+}
+
+.formualario_input{
+    padding: 10px;
+}

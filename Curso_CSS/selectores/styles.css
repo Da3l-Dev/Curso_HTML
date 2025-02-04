@@ -1,0 +1,26 @@
+/* Seleccion por elemento (Selecciona a todos los elementos <p>) */
+p{
+    color: blue;
+}
+
+span{
+    color: red;
+}
+
+
+/* Seleccion por clases */
+.ingrediente-faltante{
+    color: red;
+}
+
+
+/* Selector por id */
+#ingrediente-secreto{
+    color: blue;
+}
+
+
+/**
+* Nota: la propiedad class="" se usa para todos los elementos que requieran los mismos estilos,
+  Mientras que la porpiedad id="" solo se usa para un solo elemento unico 
+*/
