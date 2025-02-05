@@ -1,0 +1,29 @@
+/* CLASE DE BORDES */
+
+.div{
+    background: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.div{
+    /* border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px; */
+
+    /* border-top: 3px solid black; Definimos el todo lo anterior con una sola linea */
+    /* border-radius: 4px; */
+
+    border: 5px solid blue;
+    /* border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 10px; */
+
+    
+    /* border-radius: 10px 50px;*/ /* Este afecta de manera diagonal si tiene 4 valores afecta de manera a las manesillas del reloj */
+    border-radius: 10px 50px 0 2px;
+}

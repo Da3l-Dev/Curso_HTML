@@ -1,0 +1,16 @@
+/* Clase para poder dar colores */
+
+.box{
+    width: 100px;
+    height: 100px;
+    /* background: rgb(320,90,90); */
+    /* background: #1ed3e0; colores hexadecimal */
+    /* background: #0bd1; este da colores hexadecimales pero con una opacidad de nivel 0 a f */
+    /* background: hsl(207, 60%, 80%); */
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    font-family: sans-serif;
+    color: white;
+}

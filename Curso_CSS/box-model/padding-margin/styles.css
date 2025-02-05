@@ -1,10 +1,31 @@
-.formualario{
+/* .formualario{
     background-color: red;
     /* padding: 10px 90px 40px 1px; Todos los lados */
     /* padding va a la manesillas del reloj arriba, derecha, abajo ,  izquierda */
-    padding: 10px 10px; /* la primera parte es arriba y abajo y el segundo especifica los paddings de los dos lados  */
-}
+    /* padding: 10px 10px; la primera parte es arriba y abajo y el segundo especifica los paddings de los dos lados  */
+    /* padding: 30px; */
+/* } */ 
 
-.formualario_input{
-    padding: 10px;
+/* .formualario_input{
+    padding: 9px 2px;
+    width: 90%;
+    background: black;
+    color: red;
+    margin: 10px;
+} */
+
+/* .formualario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color:red ;
+    color: white;
+    width: 50%;
+} */
+
+.box{
+    background: red;
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
 }

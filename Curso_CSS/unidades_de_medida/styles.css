@@ -1,0 +1,28 @@
+/* Existen medidas como cm, pulgadas(in) etc son valores que se usan de manera que el tamano de las cosas se usen en elementos que se van a a imprimir  */
+
+/* Mietras que los demas como px se estableceran de acuerdo a las medidas del dispositivo que cargue la pagina web  */
+
+
+/* el % es respecto a contenedor que lo contiene */
+.card{
+    background: #e4e4e4;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+}
+
+h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p{
+    color: #555;
+    width: 100%;
+}

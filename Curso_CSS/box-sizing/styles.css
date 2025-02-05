@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box-default{
+    box-sizing: border-box; /* Esta propiedad permite poder hacer el calculo completo de los elementos en el tamano especificado y asi se evitan calculos para ello*/
+    padding: 30px;
+    border: 5px solid black;
+}
+
+.box-new{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+}
