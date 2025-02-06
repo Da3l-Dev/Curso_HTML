@@ -1,0 +1,43 @@
+body{
+    background: #fff;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    /* background-color: #f3e7; Fondo transparente*/
+    /* background-image: url(../img/gatocomuneuropeo-97.jpg); Fondo de una iamgen */
+
+    /* background-size: cover;
+    background-position: top;
+    background-attachment: fixed; 
+    
+    estas propiedades nos dan un efecto con el scroll donde la imagen interactua 
+    */
+
+    /*background-size: 100%;  le dice al contenedor que solo hay que usar el tamano del contenedor para renderizar la imagen*/
+
+    /* background-size: contain; Obliga a la imagen a adaptarse al contenido */
+
+    /* background-size: cover; obliga a la imagen a posicionarse dentro del contenido de manera que este solo ocupe sus dimensiones del contenedor */
+
+    /* background-size: cover; */
+    /* background-position: ; move la imagen o el fondo a una posicion dentro del contenedor */
+
+    /* background-size: contain;
+    background-repeat: no-repeat; */ 
+    /* No repite la imagen si quieres usar contain */
+
+
+
+
+}
+
+.opcaco{
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+}

@@ -4,11 +4,20 @@
 
 
 /* el % es respecto a contenedor que lo contiene */
+body{
+    margin: 0;
+}
+
 .card{
     background: #e4e4e4;
     padding: 20px;
     font-family: sans-serif;
     border-left: 5px solid #999;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    box-sizing: border-box;
+
 }
 
 h1{
@@ -26,3 +35,10 @@ p{
     color: #555;
     width: 100%;
 }
+
+
+
+    /* em -> toma el fonsize del elemento y los musltiplica por un numero n */
+    /* rem -> este solo busca al elemento padre del elemento si este tiene un font size */
+    /* vh -> viewport es el total de la pantalla en el heigth*/
+    /* vw -> viewport es el total de la pantalla en el width*/
