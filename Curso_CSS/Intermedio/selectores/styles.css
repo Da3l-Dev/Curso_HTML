@@ -1,0 +1,54 @@
+/* Este codigo muestra las distintas formas en la que se pueden seleccionar  elementos */
+
+/* 
+
+Le dice que solo modifique las etiquetas img qu tengan fomato png en su src
+
+$ --> termina con
+^ --> arranca con
+
+img[src$="png"]{
+    width: 100%;
+} */
+
+/* SELECTOR POE ATRIBUTO */
+
+img[src$="jpg"]{
+    width: 100%;
+}
+
+/* SELECTOR POR HIJOS */
+
+/* Selecciona solo los elementos li que pertenezcan a un elemento <ul> */
+
+/* ul li{
+    color: red;
+} */
+
+/* Selecciona un elemento hijo indirecto puede ser un nieto o otro elemento heredado de otros elementos */
+/* ul strong{
+    color: red;
+} */
+
+    
+/* Seleccion de un hijo directo de un elemento padre  ejemplo ( elementoPadre > elementoAModificar { styles } ) */
+
+ul > strong{
+    color: red;
+}
+
+
+/* SELECTOR DE HERMANO ADYACENTE  */
+
+/* Esto nos dice que modifique una etiqueta <p> solo si esta despues de una etiqueta h1 */
+/* h1 + p{
+    color: blue;
+} */
+
+
+/* SELECTOR DE HERMANOS GENERALES  */
+
+/* Selecciona a todos los elementos p que esten despues de una etiqueta <h1> */
+h1 ~ p{
+    color: blue;
+}

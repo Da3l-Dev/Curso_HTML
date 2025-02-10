@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <!-- Esta parte crea el encabezado de la tabla -->
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Costo</th>
+                <th>Unidades</th>
+            </tr>
+        </thead>
+
+        <!-- Este es el cuerpo de la tabla -->
+        <tbody>
+            <!-- tr define una fila -->
+            <tr>
+                <!-- td define una columna -->
+                <td>Fresa</td>
+                <td>$10</td>
+                <td>2KG</td>
+            </tr>
+            <tr>
+                <!-- td define una columna -->
+                <td>Manzana</td>
+                <td>$50</td>
+                <td>4KG</td>
+            </tr>
+            <tr>
+                <!-- td define una columna -->
+                <td>Melon</td>
+                <td>$19</td>
+                <td>1KG</td>
+            </tr>
+
+            <tr>
+                <th class="header-total">Total</th>
+                <!-- Propiedad colspan nos permite decirle a una columna cuantas columnas puede usar de espacio -->
+                <td class="dato-total" colspan="2">$79</td>
+            </tr>
+        </tbody>
+ 
+        <!-- Encabezado de tablas -->
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>

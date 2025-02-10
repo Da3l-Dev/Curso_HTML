@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Enlaces Avanzado</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de Contacto</h2>
+
+        <fieldset>
+            <legend>INFORMACION BASICA</legend>
+            <!-- INPUTS -->
+            <div class="form-input">
+                <label for="nombre">Nombre Completo</label>
+                <input id="nombre" type="text" placeholder="Dael">
+            </div>
+            <div class="form-input">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Correo">
+            </div>
+
+            <div class="form-input">
+                <label for="asunto">Asunto</label>
+                <input id="asunto" type="text" placeholder="Asunto........">
+            </div>
+        </fieldset>
+
+
+        <!-- SELECT & OPTION -->
+        <div class="form-input">
+           <label>
+            Tipo de usuario
+
+            <select>
+                <option>Opcion 1</option>
+                <option>Opcion 2</option>
+                <option>Opcion 3</option>
+                <option>Opcion 4</option>
+            </select>
+           </label>
+        </div>
+
+        <!-- DATALIST & OPTIONS -->
+        <div class="form-input">
+           <label>
+            Referente
+            <input list="referente" >
+            <datalist id="referente"  name="type-of-user">
+                <option>Dael</option>
+                <option>Una Empresa</option>
+                <option>Una Institucion</option>
+                <option>Ninguna de las anteriores</option>
+            </datalist>
+           </label>
+        </div>
+
+        <!-- TEXTAREA -->
+        <div class="form-input">
+            <label for="msg">Mensaje</label>
+            <textarea id="msg" rows="8" placeholder="Deja tu comentario...."></textarea>
+        </div>
+
+        <div class="form-input">
+            <label>
+                Acepto <a href="terminos.html" target="_blank">Terminos y condiciones</a>
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+    </form>
+</body>
+</html>

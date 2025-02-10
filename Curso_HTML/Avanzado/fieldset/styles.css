@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    color: #eee;
+    background-color: #222;
+}
+
+form{
+    margin: auto;
+    background-color: transparent;
+    padding: 20px ;
+    max-width: 600px;
+    box-shadow: 0 0 55px #0003;
+}
+
+input, textarea, select{
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-left: 2px solid #666;
+    box-shadow: 0 0 15px #fff2;
+    background: transparent;
+    border-radius: 4px;
+    color: #eee;
+    margin-top: 10px;
+}
+
+
+.form-input{
+    padding: 20px 10px;
+}
+
+
+option{
+    background-color: #222;
+}
+
+/* Propiedades para textArea para poner un tamano limite para agrandar el campo*/
+textarea{
+    min-width: 100%;
+    resize: none;
+    max-height: 200px;
+    font-family: sans-serif; 
+}
+
+
+label{
+    font-size: 0.9em;
+    /* Los label no se le puede dar paddings ni margins */
+}
+
+
+fieldset{
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd6;
+    border-radius: 6px;
+}
+
+legend{
+    padding: 0 6px;
+}
