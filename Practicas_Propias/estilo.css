@@ -1,0 +1,35 @@
+.semaforo{
+    margin: auto;
+    background: #000000e2;
+    width: 200px;
+    padding: 30px;
+}
+
+.content-luz{
+    margin: auto;
+    width: 140px;
+    height: 140px;
+    border-radius:100% ;
+    background-color: #fff;
+}
+
+
+.verde{
+    margin-top: 20px;
+}
+
+.amarillo{
+    margin-top: 20px;
+}
+
+.rojo:hover{ 
+    background-color: #f13;
+}
+
+.amarillo:hover{ 
+    background-color: #ffe711;
+}
+
+.verde:hover{ 
+    background-color: #15ff11;
+}

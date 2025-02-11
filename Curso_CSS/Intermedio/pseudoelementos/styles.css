@@ -1,0 +1,45 @@
+/* Los pseudoelementos son la parte de un elemento */
+
+div{
+    padding: 20px;
+}
+
+/* Accede y cambia las propiedades de la primera letra */
+
+
+/* Selecciona la primera linea de un texto y cambia sus propiedades */
+div::first-line{
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Cambia el estilo de como seleccionamos el texto */
+
+h1::selection{
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: #90fe;
+}
+
+li::marker{
+    color: #9a7;
+}
+
+
+
+/* Antes de un elemento */
+
+li::before{
+    content: "Hola mundo ";
+    color: red;
+}
+
+/* Despues de un elemento */
+li::after{
+    content: " Hola mundo";
+    color: #26ff;
+}

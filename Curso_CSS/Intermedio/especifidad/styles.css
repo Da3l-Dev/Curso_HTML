@@ -1,0 +1,30 @@
+/* En este codigo entenderemos la especifidad de los elemento en CSS */
+
+/* Especifidad: Es el orden de prioridad que tendran los estilos de los elementos  */
+
+/* Cuando la especifidad es el mismo ejemplo: (0,0,1) 
+   El estilo que tomara como el correcto sera por el orden
+   hacia abajo.
+
+   Es decir la cascada entra siempre que el estilo tenga la misma especifidad
+*/
+
+
+#titulo{
+  color: green  
+}
+
+.titulo{
+    color: red;
+}
+
+h1{
+    color: red;
+}
+
+h1{
+    color: blue;
+}
+
+
+/* El !important -> en css es la maxima prioridad para dar estilos */

@@ -1,0 +1,44 @@
+/* PSEUDOCLASES IS WHERE HAS */
+/* section .elemento-1,
+section .elemento-2,
+section .elemento-3
+{
+    color: red;
+} */
+
+
+/* IS: agrupa elementos que existen dentro de un elemento padre */
+/* section :is(.elemento-1 , .elemento-2 , .elemento-3){
+    color: #4f4;
+} */
+
+
+/* Where para aplicar los estilos debe tener la misma especifidad que los mismos elementos */
+/* section :where(.elemento-1 , .elemento-2 , .elemento-3){
+    color: #4f4;
+} */
+
+
+
+/* has: A diferencia de where y is este solo verifica que exista un elemento para cambiar toda la propiedad de un elemento padre */
+/* section :has(.elemento-1){
+    color: #4f4;
+} */
+
+/* Modificar un elemento despues de otro */
+
+/* ul + input{
+    background-color: black;
+    color: antiquewhite;
+} */
+
+/* Le damos color al label de un emial invalido o valido */
+
+label{
+    font-weight: bold;
+}
+
+.label :has(input:invalid){
+    color: red;
+}
+
