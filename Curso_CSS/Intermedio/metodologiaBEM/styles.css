@@ -1,0 +1,23 @@
+/* BEM (BLOCK, ELEMENT, MODIFIC) */
+
+/* EL BLOQUE SE DICTAMINA CON UN NOMBRE PRICIPAL */
+.lista{
+    border: 2px solid #000;
+}
+
+/* EL ELEMENTO SE NOBRA CON EL NOMBRE DEL BLOQUE __ Y EL TIPO DE DATO QUE ES EL ELEMENTO QUE ESTA DENTRO DEL BLOQUE */
+.lista__item{
+    color: gray;
+    margin: 10px 0;
+    list-style: square;
+}
+
+
+/* LOS MODIFICADORES SE USAN DEL SIGUIENTE MODO */
+.item--danino{
+    color: red;
+}
+
+.item--importante{
+    color: blue;
+}

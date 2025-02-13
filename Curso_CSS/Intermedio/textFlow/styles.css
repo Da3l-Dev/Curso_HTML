@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: auto;
+    font-size: 11px;
+    margin-top: 50px;
+
+    /* Esto cambia los estilos de las lineas en blanco 
+        normal: hace los saltos de linea automaticamente conforme
+                al tamano total del contenedor
+        nowrap: Le quita todos los saltos de lienea al texto.
+        pre: detecta los saltos de linea hechos desde la edicion del texto en el editor de texto
+        pre-wrap: Funciona como el normal con la diferencia que respeta los saltos de lienea hechos en la edicion del HTML
+        */
+
+    /* Con esta puedes esconder el texto desbordado y ponerle tres puntos suspesivos */
+    /* white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; */
+
+    /* Balancear texto */
+    /* text-wrap: balance; */
+
+    /* Mejorar texto */
+    
+}
+/* 
+p{
+    text-wrap: pretty;
+} */

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.contenedor{
+    padding: 150px;
+    background-color: blue;
+    position: relative;
+}
+.box{ 
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    /* Fixed es como el absolute pero este no usa la posicion relative de su padre 
+        Es decir: Siempre se va mostrar conforme al tamano de la pantalla
+        ademas siempre estara en la pantalla
+    */
+    position: fixed;
+    bottom: 0;
+}
+
+.box-stiky{
+    width: 400px;
+    height: 100px;
+    background-color: rebeccapurple;
+    position: sticky;
+}
+
+
+.element1{
+    top: 20px;
+}
+
+.element2{
+    top: 140px;
+}
+
+.element3{
+    top: 260px;
+}

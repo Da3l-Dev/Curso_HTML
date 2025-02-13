@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.box{
+    width: 220px;
+    height: 320px;
+    margin: auto;
+    color: red;
+    background-color: #fff;
+    margin-top: 50px;
+    position: relative;
+    left: 0;
+    border: 2px solid #000;
+
+    /* Hace que el contenido que se desborda lo esconda */
+    /* overflow: hidden; */
+
+    /* Coloca scrolls en la ventana
+    overflow: scroll;
+
+    /* Esconde el scroll en X  */
+    /* overflow-x: hidden; */
+
+    overflow-y: clip;
+}

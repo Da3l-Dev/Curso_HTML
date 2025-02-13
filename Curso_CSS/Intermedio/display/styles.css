@@ -1,0 +1,67 @@
+/* body{
+    margin: 0;
+}
+div{
+    padding: 20px;
+    background-color: #999;
+} */
+
+/* a{ */
+    /* background-color: red;
+    color: white;
+    border: 1px solid #0004; */
+
+     /* Block le dice a un elemento que use el 100% del ancho disponible */
+     /* display: block; */
+    /*  Lo bloques aceptan las siguientes propiedades*/
+    /* margin: 20px;
+    padding: 20px; */
+/* } */
+
+
+/* Voler elementos en bloque a en liniea */
+/* p{ */
+    /* background-color: #0005; */
+    /* display: inline; */
+
+    /* Las propiedades que sirven aqui son el margin y el padding de forma horizontal */
+    /* margin: 20px; */
+    /* padding: 20px; */
+
+    /* Nota los elementos en linea NO aceptan la propiedad de acho y alto */
+    /* height: 2000px; */
+    /* width: 1000px; */
+/* } */
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #48f;
+}
+
+.nav__list{
+    text-align: center;
+    margin:0;
+}
+
+/* inline-block -> podemos trabajar con elementos en bloque pero apilados en linea */
+.nav__item{
+    display: inline-block;
+    padding: 10px;
+    background-color: #48f;
+}
+
+
+
+.nav__link{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    background-color: #fff;
+    color: #000e;
+}

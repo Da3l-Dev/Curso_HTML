@@ -1,0 +1,27 @@
+/* En este codigo veremos la propiedad position */
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    /* position tiene por defecto static */
+    /* Esta propiedad mantiene la posicion actual pero podemo moverlo para todos sus lados*/
+    position: relative;
+}
+
+.box--blue{
+    background-color: blue;
+    left: 20px;
+    top: 20px;
+    /* La propiedad top le da mas impotancia que el bottom esto
+       aplica igual con rigth y left
+    */
+    bottom: 20px;
+    right: 100px;
+
+    /* z-index: mueve la propiedad por delante de los demas elementos que tengan un zindex menor */
+    z-index: 2;
+
+    /* Nota el z-index solo sirve con position */
+}
