@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img{
+    width: 700px;
+    height: 600px;
+    /* contain: hace que la imagen se adapte a una de las dos dimensiones al 100% 
+       cover: cubre todo la imagen en el contenido
+       none: le dice que la imagen que esta en el contenido siempre mantenga el ancho y el alto de la imagen original
+       scale-down: le dice a la imagen que se quede con el valor mas pequeno para escalar la imagen
+       */
+    /*  */
+    object-fit: cover;
+
+    /* object-position sirve para poder posicionar la imagen con los metodos top, bottom, left y rigth 
+    i  incluso hasta con pixeles
+    */
+    /* object-position: 200px; */
+
+    border: 2px solid #000;
+    margin-top: 50px;
+    margin-left: 50px;
+}

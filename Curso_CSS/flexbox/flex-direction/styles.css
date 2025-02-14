@@ -1,0 +1,30 @@
+ body{
+    margin: 0;
+    font-family: sans-serif;
+ }
+
+ .flexbox{
+    /* Vuelve la caja a un flex */
+    display: flex;
+
+    /* Cambia la direccion de los elementos del flex */
+    flex-direction: row;
+
+ }
+ .flex-item{
+    width: 100%;
+    background-color: #911;
+    margin: 10px 2px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+ }
+
+
+ .flex-item:first-child{
+    background-color: #d77;
+ }
+
+ .flex-item:last-child{
+    background-color: black;
+ }
