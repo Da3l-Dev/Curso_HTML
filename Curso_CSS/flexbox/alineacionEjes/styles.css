@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+ }
+
+ div ,body{
+    box-sizing: border-box;
+ }
+
+ .flexbox{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 2px solid #000; */
+    margin: 20px;
+
+    /* Alinear los items en el eje principal en este caso es en row 
+        start -> al inicio del flexbox
+        end ->  al final de flexbox
+        center -> Alinea todos sus elementos al centro
+        space-between -> le dice a primer elemento se aline al inicio y el ultimo al final del flexbox
+        los de en medio son los que se acomodan de manera tal que simpre queden alineados entre el ultimo y el primero
+        (los de en medio siempre cambian)
+
+       
+        space-around -> Le da una separacion equitativa a los elementos para alinearlos en el flexbox
+        space-evenly -> este si crea una seperacion igual entre elementos todos a la misma distacia
+        */
+
+    /* nota: el reverse no cambia la alineacion de justify  */
+
+    /* aligin-items -> esta propiedad nos permite hacer alineacion de los elementos en el eje cruzado 
+        stretch -> rellena el item para cumplir con el tamano del contenido de flexbox
+        baseline -> Hace una alineacion trazando una lienea entre el texto de los content-box para hacer una alineacion entre ellas
+
+        nota: algin-items se usa solo cuando se tiene una sola linea de elementos
+    
+        */
+    /* align-items: center; */
+
+    /* algin-content -> alinea los elementos en el elemento cruzado 
+        nota: se usa para muchas lieneas en el eje cruzado
+    */
+    align-content: center;
+
+    background-color: #fff;
+
+    /* gap -> da una separacion entre pixeles */
+    gap: 30px;
+
+ }
+ .flex-item{
+    width: 200px;
+    background-color: #911;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    direction: rtl;
+
+    /* flex-grow: 1; */
+    /* order -> nos permite cambiar el orden visual de los elementos */
+    /* order: 0; */
+    /* flex-basis: 200px;
+     */
+
+     /* Para poder resumir grow, shrink y basis se usa esta sintaxis  */
+     flex: 1 1 200px ;
+     /* flex: 'flex-grow' , 'flex-shrink', 'flex-basis'; */
+ 
+
+    }
+
+
+
+ .flex-item:first-child{
+    background-color: #d77;
+    /* flex-grow -> le dice al elemento que use el total del espacio disponible que sobra en e eje principal */
+    /* flex-grow: 2; */
+
+    /* order: 1; */
+
+    /* flex-shrink -> nos permite decirle a un componente como se va encoger de acuerdo a el cambio del flexbox*/
+ }
+
+ .flex-item:last-child{
+    background-color: black;
+    /* order: 2; */
+    /* flex-grow: 4; */
+
+    /*  align-self -> solo modifica un elemento aliniandolo al contenido del flexbox */
+    /* align-self: flex-start; */
+
+ }
