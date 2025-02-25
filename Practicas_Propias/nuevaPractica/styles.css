@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilos del Menu */
+.menuBar{
+    position: fixed;
+    margin: 0;
+    background-color: #179;
+    width: 20%;
+    height: 100vh;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.menuBar__lista{
+    margin: 0;
+    padding: 0;
+}
+
+.menuBar__item{
+    list-style: none;
+}
+
+.menuBar__link{
+    margin: 5px 0;
+    display: block;
+    padding: 20px;
+    background-color: #379;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilos del contenedor */
+
+.container__principal{
+    margin-left: 20%;
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.container--presentacion{
+    padding: 25px;
+    text-align: justify;
+}
+
+.presentacion--firts p{
+    display: inline;
+}
+
+.presentacion--image{
+    float: left;
+    margin: 0 10px;
+    width: 300px;
+}
