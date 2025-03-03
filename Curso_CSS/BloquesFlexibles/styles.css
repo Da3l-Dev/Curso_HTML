@@ -1,0 +1,42 @@
+/* Este codigo nos permite enteder la propiedad de min y max en el tamano de los componentes 
+
+Ademas de poder crear elementos adaptativos sin media querys
+*/
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+
+.flexbox{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: auto;
+}
+/* Crear un bloque que pueda adaptarse segun el tamano de la pantalla*/
+.bloque{
+
+    display: inline-block;
+    min-width: 150px;
+    /* min-width le dice al bloque lo minimo que puede decrementar su tamano */
+    /* max-width le dice al bloque que solo puede crecer hasta ese tamano */
+
+    /* El heigth solo se usa en casos que sea muy estricto aplicar su uso */
+
+    min-height: 100px;
+    background-color: #7bf;
+    margin: auto;
+    width: 100%;
+    flex: 1;
+    font-size: 12px;
+    padding: 10px;
+    margin: 4px;
+}
+
