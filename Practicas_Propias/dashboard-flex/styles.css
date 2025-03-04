@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #ccc;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Menu Lateral */
+
+.content__menu{
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    background-color: #4e4e4e;
+    height: 100vh;
+}
+
+.list__menu{
+    padding: 0;
+}
+
+
+.menu__item{
+    list-style: none;
+    margin: 9px 4px;
+}
+
+.menu__link{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.menu__link:hover{
+    background-color: #686767;
+}
+/* Contenido principal del dahsboard */
+
+
+.content__principal {
+    flex: 1;
+    margin-left: 15%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Contenido de las cartas */
+
+.content__cards {
+    flex: 1;
+    padding: 5px;
+    width: 100%; /* Usa el 100% del espacio disponible */
+    display: flex;
+    flex-direction: row; /* Asegura la dirección horizontal */
+    flex-wrap: wrap; /* Permite que las cards se envuelvan en múltiples filas */
+    gap: 5px;
+    background-color: #fff;
+}
+
+/* Estilos de los Cards */
+.card {
+    position: relative;
+    background-color: #686767;
+    min-width: 250px;
+    flex: 1;
+    min-height: 180px;
+    color: #fff; /* Le damos el color blanco a todos los textos del card */
+}
+
+.card__header{
+    padding: 4px 0px;
+    margin: 0;
+}
+.card__header h2{
+    text-align: center;
+    margin: 0;
+}
+
+
+/* Contenido de la grafica y tabla de datos */
+.content__graficsTables{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+
+/* Barras de progreso */
+.content__progrestBar{
+    flex: 1;
+    background-color: beige;
+    min-height: 250px;
+}
+
+
+/* Tabla del areas */
+.content__table{
+    background-color: aquamarine;
+    flex: 1;
+
+}
+
+
+/* Estilos de contenido de datos anual */
+.content__dataAnual{
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.content__cardsData{
+    background-color: bisque;
+}
+
+.content__graficaAnual{
+    background-color: rgb(159, 159, 159);
+}
+
+/* Media query para resoluciones mayores a 1280px */
+@media (min-width: 1900px) {
+    .content__principal {
+        height: 100vh; /* Ocupa el 100% del alto de la pantalla */
+    }
+
+    .content__cards, 
+    .content__progrestBar,
+    .content__cardsData {
+        flex: 1; /* Ocupa una parte del espacio */
+    }
+
+    .content__graficsTables,
+    .content__graficaAnual,
+    .content__table {
+        flex: 3; /* Ocupa más espacio que las cards */
+    }
+
+    .content__dataAnual {
+        flex: 4; /* Ocupa la mayor parte del espacio */
+    }
+}
+
+/* Estilos base para móviles (menores a 768px) */
+@media (max-width: 1899px) {
+    /* Ajusta el menú lateral */
+    .content__menu {
+        width: 100%; /* Ocupa el 100% del ancho */
+        height: auto; /* Altura automática */
+        position: relative; /* Elimina la posición fija */
+    }
+
+    .menu__link {
+        font-size: 18px; /* Reduce el tamaño de la fuente */
+    }
+
+    /* Ajusta el contenido principal */
+    .content__principal {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        padding: 5px; /* Reduce el padding */
+    }
+
+    /* Ajusta las cards */
+    .content__cards {
+        flex-direction: column; /* Apila las cards verticalmente */
+    }
+
+    .card {
+        min-width: 100%; /* Ocupa el 100% del ancho */
+        min-height: 100px; /* Reduce la altura mínima */
+    }
+
+    /* Ajusta los gráficos y tablas */
+    .content__graficsTables {
+        flex-direction: column; /* Apila los elementos verticalmente */
+    }
+
+    .content__progrestBar,
+    .content__table {
+        min-height: 300px; /* Altura mínima para móviles */
+    }
+
+    /* Ajusta el contenido de datos anual */
+    .content__dataAnual {
+        flex-flow: column; /* Apila los elementos verticalmente */
+    }
+
+    .content__cardsData,
+    .content__graficaAnual {
+        width: 100%; /* Ocupa el 100% del ancho */
+        min-height: 300px; /* Altura mínima para móviles */
+    }
+}
